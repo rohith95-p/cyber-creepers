@@ -1,0 +1,39 @@
+# FILE: .gitignore
+
+# Environment variables
+.env
+
+# Git and IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# Python Cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+
+# Logs and Reports
+logs/
+reports/
+
+# Database Files
+*.db
+*.db-journal
+
+# Models
+models/
+*.joblib
+
+# Frontend (React)
+frontend/node_modules/
+frontend/dist/

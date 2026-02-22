@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: #020617;
+  color: #f8fafc;
+  --institutional-blue: #0ea5e9;
+  --institutional-indigo: #6366f1;
+  --institutional-emerald: #10b981;
+  --institutional-dark: #0f172a;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background: radial-gradient(circle at top right, #1e1b4b 0%, #020617 100%);
+}
+
+/* Glassmorphism Utilities */
+.glass {
+  background: rgba(15, 23, 42, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-card {
+  background: linear-gradient(135deg, rgba(30, 41, 59, 0.4), rgba(15, 23, 42, 0.4));
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.3);
+  transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-card:hover {
+  background: linear-gradient(135deg, rgba(30, 41, 59, 0.5), rgba(15, 23, 42, 0.5));
+  border: 1px solid rgba(14, 165, 233, 0.4);
+  transform: translateY(-6px) scale(1.01);
+  box-shadow: 0 30px 60px -12px rgba(0, 0, 0, 0.6), 0 0 20px rgba(14, 165, 233, 0.1);
+}
+
+/* Institutional Typography */
+.prose h1,
+.prose h2,
+.prose h3 {
+  font-weight: 900 !important;
+  letter-spacing: -0.02em !important;
+  color: #fff !important;
+  text-transform: uppercase;
+  font-size: 0.9rem !important;
+  margin-bottom: 1.5rem !important;
+}
+
+.prose p {
+  color: #94a3b8 !important;
+  line-height: 1.8 !important;
+}
+
+.prose strong {
+  color: #fff !important;
+  font-weight: 800 !important;
+}
+
+.prose ul li::marker {
+  color: #3b82f6 !important;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(14, 165, 233, 0.3);
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 5px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(14, 165, 233, 0.2);
+}
+
+/* Animations */
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+.animate-shimmer {
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.05), transparent);
+  background-size: 1000px 100%;
+  animation: shimmer 2s infinite linear;
+}

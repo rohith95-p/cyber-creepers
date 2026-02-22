@@ -1,0 +1,268 @@
+.app {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 280px;
+  padding: 24px;
+  background: #161b22;
+  border-right: 1px solid #30363d;
+  flex-shrink: 0;
+}
+
+.sidebar h1 {
+  font-size: 1.25rem;
+  margin: 0 0 12px;
+}
+
+.sidebar .tagline {
+  font-size: 0.85rem;
+  color: #8b949e;
+  margin: 0 0 16px;
+}
+
+.sidebar hr {
+  border: none;
+  border-top: 1px solid #30363d;
+  margin: 16px 0;
+}
+
+.sidebar label {
+  display: block;
+  font-size: 0.875rem;
+  margin-bottom: 8px;
+}
+
+.sidebar input {
+  width: 100%;
+  padding: 8px 12px;
+  background: #0d1117;
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  color: #e6edf3;
+  font-size: 0.9rem;
+  margin-top: 4px;
+}
+
+.sidebar .btn-primary {
+  width: 100%;
+  padding: 10px 16px;
+  margin-top: 12px;
+  background: #238636;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.sidebar .btn-primary:hover:not(:disabled) {
+  background: #2ea043;
+}
+
+.sidebar .btn-primary:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.sidebar .caption {
+  font-size: 0.75rem;
+  color: #6e7681;
+}
+
+.main {
+  flex: 1;
+  padding: 32px;
+  overflow-x: hidden;
+}
+
+.header {
+  margin-bottom: 24px;
+}
+
+.header h2 {
+  margin: 0 0 8px;
+  font-size: 1.5rem;
+}
+
+.header p {
+  margin: 0;
+  color: #8b949e;
+}
+
+.header code {
+  background: #21262d;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.alert {
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+.alert-info {
+  background: rgba(56, 139, 253, 0.15);
+  border: 1px solid #388bfd;
+}
+
+.alert-error {
+  background: rgba(248, 81, 73, 0.15);
+  border: 1px solid #f85149;
+}
+
+.metrics-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.metric-card {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.metric-label {
+  display: block;
+  font-size: 0.8rem;
+  color: #8b949e;
+  margin-bottom: 4px;
+}
+
+.metric-value {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.metric-help {
+  display: block;
+  font-size: 0.7rem;
+  color: #6e7681;
+  margin-top: 4px;
+}
+
+.section {
+  margin-bottom: 32px;
+}
+
+.section h3 {
+  margin: 0 0 16px;
+  font-size: 1.1rem;
+}
+
+.chart {
+  background: #161b22;
+  border-radius: 8px;
+  padding: 16px;
+  border: 1px solid #30363d;
+}
+
+.muted {
+  color: #8b949e;
+  font-style: italic;
+}
+
+.tab-buttons {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.tab-btn {
+  padding: 8px 16px;
+  background: #21262d;
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  color: #8b949e;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.tab-btn:hover {
+  color: #e6edf3;
+  border-color: #8b949e;
+}
+
+.tab-btn.active {
+  background: #388bfd;
+  color: white;
+  border-color: #388bfd;
+}
+
+.tab-content {
+  padding: 20px 0;
+}
+
+.report-box {
+  padding: 24px;
+  background: #0e1117;
+  border-radius: 10px;
+  border: 1px solid #30363d;
+  line-height: 1.7;
+  margin-bottom: 16px;
+}
+
+.report-box h1, .report-box h2, .report-box h3 {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+.report-box p {
+  margin: 0.5em 0;
+}
+
+.advisor-box {
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.advisor-info {
+  background: rgba(56, 139, 253, 0.15);
+  border: 1px solid #388bfd;
+}
+
+.advisor-warning {
+  background: rgba(210, 153, 34, 0.15);
+  border: 1px solid #d29922;
+}
+
+.advisor-success {
+  background: rgba(35, 134, 54, 0.15);
+  border: 1px solid #238636;
+}
+
+.profile-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 24px;
+}
+
+.profile-list li {
+  padding: 4px 0;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 24px;
+}
+
+.data-table th,
+.data-table td {
+  padding: 8px 12px;
+  text-align: left;
+  border-bottom: 1px solid #30363d;
+}
+
+.data-table th {
+  color: #8b949e;
+  font-weight: 500;
+}

@@ -1,0 +1,38 @@
+# FILE: .dockerignore
+
+# Git folders and files
+.git/
+.gitignore
+
+# IDEs and Editors settings
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Virtual Environments (ignoring these ensures huge local dependencies are not sent to context)
+.venv/
+venv/
+env/
+
+# Python Cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Logs and Reports
+logs/
+reports/
+
+# Database Files
+*.db
+*.db-journal
+
+# Models
+models/
+*.joblib
+
+# Note: Dockerfile and docker-compose.yml are explicitly NOT excluded here 
+# because they are needed in the build context.

@@ -1,0 +1,536 @@
+[
+    {
+        "timestamp": "2026-02-21T07:17:46.374871",
+        "client_id": "PUNEETH_001",
+        "profile": {
+            "age": 45,
+            "risk_tolerance": "moderate",
+            "investment_horizon_years": 15,
+            "time_horizon_years": 15,
+            "primary_goal": "Retirement and wealth preservation",
+            "goal_amount_usd": 2000000,
+            "current_portfolio_value_usd": 250000,
+            "liquidity_needs": "Low",
+            "experience": "Intermediate, comfortable with standard equities and bonds."
+        },
+        "portfolio": [
+            {
+                "ticker": "AAPL",
+                "quantity": 150,
+                "asset_type": "equity"
+            },
+            {
+                "ticker": "MSFT",
+                "quantity": 200,
+                "asset_type": "equity"
+            },
+            {
+                "ticker": "GOOGL",
+                "quantity": 100,
+                "asset_type": "equity"
+            },
+            {
+                "ticker": "AMZN",
+                "quantity": 80,
+                "asset_type": "equity"
+            },
+            {
+                "ticker": "BND",
+                "quantity": 500,
+                "asset_type": "bond_etf"
+            }
+        ],
+        "risk_metrics": {
+            "cvar_95": -0.027014,
+            "cvar_99": -0.039112,
+            "max_drawdown": -0.165879,
+            "sharpe_ratio": 0.6212,
+            "sortino_ratio": 0.9178,
+            "tail_dependence_yules_q": {
+                "AAPL-MSFT": 0.397,
+                "AAPL-GOOGL": 0.504,
+                "AAPL-AMZN": 0.41,
+                "AAPL-BND": 0.089,
+                "MSFT-GOOGL": 0.516,
+                "MSFT-AMZN": 0.625,
+                "MSFT-BND": 0.136,
+                "GOOGL-AMZN": 0.624,
+                "GOOGL-BND": -0.129,
+                "AMZN-BND": -0.043
+            },
+            "monte_carlo": {
+                "simulation_paths": 10000,
+                "projection_days": 252,
+                "initial_value": 100000.0,
+                "prob_of_gain_1yr": 0.7834,
+                "median_outcome": 117052.36,
+                "worst_5pct": 84620.54,
+                "best_5pct": 162008.08
+            }
+        },
+        "news": {
+            "AAPL": "Apple releases new AI-powered hardware, receiving mixed reviews. Supply chain issues persist in Asia. Analysts maintain a cautious but positive outlook.",
+            "MSFT": "Microsoft announces major cloud contract with US Government. Azure growth beats expectations. AI integration across Office products drives subscription revenue.",
+            "GOOGL": "Google faces new antitrust scrutiny in the EU regarding advertising technology. Search dominance remains strong, but AI competition from startups is increasing.",
+            "AMZN": "Amazon Web Services (AWS) announces new custom AI chips. Retail division shows strong holiday sales. Logistics costs stabilized.",
+            "BND": "Bond markets steady after Federal Reserve signals a pause in interest rate hikes. Yields remain attractive for conservative investors."
+        },
+        "fundamentals": {
+            "AAPL": "API Error: Unable to compute fundamental health.",
+            "MSFT": "API Error: Unable to compute fundamental health.",
+            "GOOGL": "API Error: Unable to compute fundamental health.",
+            "AMZN": "API Error: Unable to compute fundamental health.",
+            "BND": "API Error: Unable to compute fundamental health."
+        },
+        "macro": "Macro summary unavailable due to API error. Assume standard volatile market conditions.",
+        "buffett_raw": "Buffett Analysis Error: 1 validation error for ChatGoogleGenerativeAI\n  Value error, API key required for Gemini Developer API. Provide api_key parameter or set GOOGLE_API_KEY/GEMINI_API_KEY environment variable. [type=value_error, input_value={'model': 'gemini-2.5-fla... '', 'model_kwargs': {}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error",
+        "graham_raw": "Graham Analysis Error: 1 validation error for ChatGoogleGenerativeAI\n  Value error, API key required for Gemini Developer API. Provide api_key parameter or set GOOGLE_API_KEY/GEMINI_API_KEY environment variable. [type=value_error, input_value={'model': 'gemini-2.5-fla... '', 'model_kwargs': {}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error",
+        "growth_raw": "Growth Analysis Error: 1 validation error for ChatGoogleGenerativeAI\n  Value error, API key required for Gemini Developer API. Provide api_key parameter or set GOOGLE_API_KEY/GEMINI_API_KEY environment variable. [type=value_error, input_value={'model': 'gemini-2.5-fla... '', 'model_kwargs': {}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error",
+        "final_report": "AI Generation Error: 1 validation error for ChatGoogleGenerativeAI\n  Value error, API key required for Gemini Developer API. Provide api_key parameter or set GOOGLE_API_KEY/GEMINI_API_KEY environment variable. [type=value_error, input_value={'model': 'gemini-2.5-fla... '', 'model_kwargs': {}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error"
+    },
+    {
+        "timestamp": "2026-02-21T07:20:44.824777",
+        "client_id": "PUNEETH_001",
+        "profile": {
+            "age": 45,
+            "risk_tolerance": "moderate",
+            "investment_horizon_years": 15,
+            "time_horizon_years": 15,
+            "primary_goal": "Retirement and wealth preservation",
+            "goal_amount_usd": 2000000,
+            "current_portfolio_value_usd": 250000,
+            "liquidity_needs": "Low",
+            "experience": "Intermediate, comfortable with standard equities and bonds."
+        },
+        "portfolio": [
+            {
+                "ticker": "AAPL",
+                "quantity": 150,
+                "asset_type": "equity"
+            },
+            {
+                "ticker": "MSFT",
+                "quantity": 200,
+                "asset_type": "equity"
+            },
+            {
+                "ticker": "GOOGL",
+                "quantity": 100,
+                "asset_type": "equity"
+            },
+            {
+                "ticker": "AMZN",
+                "quantity": 80,
+                "asset_type": "equity"
+            },
+            {
+                "ticker": "BND",
+                "quantity": 500,
+                "asset_type": "bond_etf"
+            }
+        ],
+        "risk_metrics": {
+            "cvar_95": -0.027014,
+            "cvar_99": -0.039112,
+            "max_drawdown": -0.165879,
+            "sharpe_ratio": 0.6212,
+            "sortino_ratio": 0.9178,
+            "tail_dependence_yules_q": {
+                "AAPL-MSFT": 0.397,
+                "AAPL-GOOGL": 0.504,
+                "AAPL-AMZN": 0.41,
+                "AAPL-BND": 0.089,
+                "MSFT-GOOGL": 0.516,
+                "MSFT-AMZN": 0.625,
+                "MSFT-BND": 0.136,
+                "GOOGL-AMZN": 0.624,
+                "GOOGL-BND": -0.129,
+                "AMZN-BND": -0.043
+            },
+            "monte_carlo": {
+                "simulation_paths": 10000,
+                "projection_days": 252,
+                "initial_value": 100000.0,
+                "prob_of_gain_1yr": 0.7796,
+                "median_outcome": 116402.07,
+                "worst_5pct": 84303.24,
+                "best_5pct": 160784.18
+            }
+        },
+        "news": {
+            "AAPL": "Apple releases new AI-powered hardware, receiving mixed reviews. Supply chain issues persist in Asia. Analysts maintain a cautious but positive outlook.",
+            "MSFT": "Microsoft announces major cloud contract with US Government. Azure growth beats expectations. AI integration across Office products drives subscription revenue.",
+            "GOOGL": "Google faces new antitrust scrutiny in the EU regarding advertising technology. Search dominance remains strong, but AI competition from startups is increasing.",
+            "AMZN": "Amazon Web Services (AWS) announces new custom AI chips. Retail division shows strong holiday sales. Logistics costs stabilized.",
+            "BND": "Bond markets steady after Federal Reserve signals a pause in interest rate hikes. Yields remain attractive for conservative investors."
+        },
+        "fundamentals": {
+            "AAPL": "API Error: Unable to compute fundamental health.",
+            "MSFT": "API Error: Unable to compute fundamental health.",
+            "GOOGL": "API Error: Unable to compute fundamental health.",
+            "AMZN": "API Error: Unable to compute fundamental health.",
+            "BND": "API Error: Unable to compute fundamental health."
+        },
+        "macro": "Macro summary unavailable due to API error. Assume standard volatile market conditions.",
+        "buffett_raw": "Buffett Analysis Error: 1 validation error for ChatGoogleGenerativeAI\n  Value error, API key required for Gemini Developer API. Provide api_key parameter or set GOOGLE_API_KEY/GEMINI_API_KEY environment variable. [type=value_error, input_value={'model': 'gemini-1.5-fla... '', 'model_kwargs': {}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error",
+        "graham_raw": "Graham Analysis Error: 1 validation error for ChatGoogleGenerativeAI\n  Value error, API key required for Gemini Developer API. Provide api_key parameter or set GOOGLE_API_KEY/GEMINI_API_KEY environment variable. [type=value_error, input_value={'model': 'gemini-1.5-fla... '', 'model_kwargs': {}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error",
+        "growth_raw": "Growth Analysis Error: 1 validation error for ChatGoogleGenerativeAI\n  Value error, API key required for Gemini Developer API. Provide api_key parameter or set GOOGLE_API_KEY/GEMINI_API_KEY environment variable. [type=value_error, input_value={'model': 'gemini-1.5-fla... '', 'model_kwargs': {}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error",
+        "final_report": "AI Generation Error: 1 validation error for ChatGoogleGenerativeAI\n  Value error, API key required for Gemini Developer API. Provide api_key parameter or set GOOGLE_API_KEY/GEMINI_API_KEY environment variable. [type=value_error, input_value={'model': 'gemini-2.5-fla... '', 'model_kwargs': {}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error"
+    },
+    {
+        "timestamp": "2026-02-21T07:26:03.587467",
+        "client_id": "PUNEETH_001",
+        "profile": {
+            "age": 45,
+            "risk_tolerance": "moderate",
+            "investment_horizon_years": 15,
+            "time_horizon_years": 15,
+            "primary_goal": "Retirement and wealth preservation",
+            "goal_amount_usd": 2000000,
+            "current_portfolio_value_usd": 250000,
+            "liquidity_needs": "Low",
+            "experience": "Intermediate, comfortable with standard equities and bonds."
+        },
+        "portfolio": [
+            {
+                "ticker": "AAPL",
+                "quantity": 150,
+                "asset_type": "equity"
+            },
+            {
+                "ticker": "MSFT",
+                "quantity": 200,
+                "asset_type": "equity"
+            },
+            {
+                "ticker": "GOOGL",
+                "quantity": 100,
+                "asset_type": "equity"
+            },
+            {
+                "ticker": "AMZN",
+                "quantity": 80,
+                "asset_type": "equity"
+            },
+            {
+                "ticker": "BND",
+                "quantity": 500,
+                "asset_type": "bond_etf"
+            }
+        ],
+        "risk_metrics": {
+            "cvar_95": -0.027014,
+            "cvar_99": -0.039112,
+            "max_drawdown": -0.165879,
+            "sharpe_ratio": 0.6212,
+            "sortino_ratio": 0.9178,
+            "tail_dependence_yules_q": {
+                "AAPL-MSFT": 0.397,
+                "AAPL-GOOGL": 0.504,
+                "AAPL-AMZN": 0.41,
+                "AAPL-BND": 0.089,
+                "MSFT-GOOGL": 0.516,
+                "MSFT-AMZN": 0.625,
+                "MSFT-BND": 0.136,
+                "GOOGL-AMZN": 0.624,
+                "GOOGL-BND": -0.129,
+                "AMZN-BND": -0.043
+            },
+            "monte_carlo": {
+                "simulation_paths": 10000,
+                "projection_days": 252,
+                "initial_value": 100000.0,
+                "prob_of_gain_1yr": 0.7775,
+                "median_outcome": 116444.83,
+                "worst_5pct": 84949.32,
+                "best_5pct": 161252.04
+            }
+        },
+        "news": {
+            "AAPL": "Apple releases new AI-powered hardware, receiving mixed reviews. Supply chain issues persist in Asia. Analysts maintain a cautious but positive outlook.",
+            "MSFT": "Microsoft announces major cloud contract with US Government. Azure growth beats expectations. AI integration across Office products drives subscription revenue.",
+            "GOOGL": "Google faces new antitrust scrutiny in the EU regarding advertising technology. Search dominance remains strong, but AI competition from startups is increasing.",
+            "AMZN": "Amazon Web Services (AWS) announces new custom AI chips. Retail division shows strong holiday sales. Logistics costs stabilized.",
+            "BND": "Bond markets steady after Federal Reserve signals a pause in interest rate hikes. Yields remain attractive for conservative investors."
+        },
+        "fundamentals": {
+            "AAPL": "API Error: Unable to compute fundamental health.",
+            "MSFT": "API Error: Unable to compute fundamental health.",
+            "GOOGL": "API Error: Unable to compute fundamental health.",
+            "AMZN": "API Error: Unable to compute fundamental health.",
+            "BND": "API Error: Unable to compute fundamental health."
+        },
+        "macro": "Macro summary unavailable due to API error. Assume standard volatile market conditions.",
+        "buffett_raw": "Buffett Analysis Error: 1 validation error for ChatGoogleGenerativeAI\n  Value error, API key required for Gemini Developer API. Provide api_key parameter or set GOOGLE_API_KEY/GEMINI_API_KEY environment variable. [type=value_error, input_value={'model': 'gemini-1.5-fla... '', 'model_kwargs': {}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error",
+        "graham_raw": "Graham Analysis Error: 1 validation error for ChatGoogleGenerativeAI\n  Value error, API key required for Gemini Developer API. Provide api_key parameter or set GOOGLE_API_KEY/GEMINI_API_KEY environment variable. [type=value_error, input_value={'model': 'gemini-1.5-fla... '', 'model_kwargs': {}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error",
+        "growth_raw": "Growth Analysis Error: 1 validation error for ChatGoogleGenerativeAI\n  Value error, API key required for Gemini Developer API. Provide api_key parameter or set GOOGLE_API_KEY/GEMINI_API_KEY environment variable. [type=value_error, input_value={'model': 'gemini-1.5-fla... '', 'model_kwargs': {}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error",
+        "final_report": "AI Generation Error: 1 validation error for ChatGoogleGenerativeAI\n  Value error, API key required for Gemini Developer API. Provide api_key parameter or set GOOGLE_API_KEY/GEMINI_API_KEY environment variable. [type=value_error, input_value={'model': 'gemini-1.5-fla... '', 'model_kwargs': {}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/value_error"
+    },
+    {
+        "timestamp": "2026-02-21T11:16:37.563146",
+        "client_id": "PUNEETH_001",
+        "profile": {
+            "age": 45,
+            "risk_tolerance": "moderate",
+            "investment_horizon_years": 15,
+            "time_horizon_years": 15,
+            "primary_goal": "Retirement and wealth preservation",
+            "goal_amount_usd": 2000000,
+            "current_portfolio_value_usd": 250000,
+            "liquidity_needs": "Low",
+            "experience": "Intermediate, comfortable with standard equities and bonds."
+        },
+        "portfolio": [
+            {
+                "ticker": "AAPL",
+                "quantity": 150,
+                "asset_type": "equity"
+            },
+            {
+                "ticker": "MSFT",
+                "quantity": 200,
+                "asset_type": "equity"
+            },
+            {
+                "ticker": "GOOGL",
+                "quantity": 100,
+                "asset_type": "equity"
+            },
+            {
+                "ticker": "AMZN",
+                "quantity": 80,
+                "asset_type": "equity"
+            },
+            {
+                "ticker": "BND",
+                "quantity": 500,
+                "asset_type": "bond_etf"
+            }
+        ],
+        "risk_metrics": {
+            "cvar_95": -0.027014,
+            "cvar_99": -0.039112,
+            "max_drawdown": -0.165879,
+            "sharpe_ratio": 0.6212,
+            "sortino_ratio": 0.9178,
+            "tail_dependence_yules_q": {
+                "AAPL-MSFT": 0.397,
+                "AAPL-GOOGL": 0.504,
+                "AAPL-AMZN": 0.41,
+                "AAPL-BND": 0.089,
+                "MSFT-GOOGL": 0.516,
+                "MSFT-AMZN": 0.625,
+                "MSFT-BND": 0.136,
+                "GOOGL-AMZN": 0.624,
+                "GOOGL-BND": -0.129,
+                "AMZN-BND": -0.043
+            },
+            "monte_carlo": {
+                "simulation_paths": 10000,
+                "projection_days": 252,
+                "initial_value": 100000.0,
+                "prob_of_gain_1yr": 0.7823,
+                "median_outcome": 116965.7,
+                "worst_5pct": 84225.3,
+                "best_5pct": 161803.5
+            }
+        },
+        "news": {
+            "AAPL": "Apple releases new AI-powered hardware, receiving mixed reviews. Supply chain issues persist in Asia. Analysts maintain a cautious but positive outlook.",
+            "MSFT": "Microsoft announces major cloud contract with US Government. Azure growth beats expectations. AI integration across Office products drives subscription revenue.",
+            "GOOGL": "Google faces new antitrust scrutiny in the EU regarding advertising technology. Search dominance remains strong, but AI competition from startups is increasing.",
+            "AMZN": "Amazon Web Services (AWS) announces new custom AI chips. Retail division shows strong holiday sales. Logistics costs stabilized.",
+            "BND": "Bond markets steady after Federal Reserve signals a pause in interest rate hikes. Yields remain attractive for conservative investors."
+        },
+        "fundamentals": {
+            "AAPL": "API Error: Unable to compute fundamental health.",
+            "MSFT": "API Error: Unable to compute fundamental health.",
+            "GOOGL": "API Error: Unable to compute fundamental health.",
+            "AMZN": "API Error: Unable to compute fundamental health.",
+            "BND": "API Error: Unable to compute fundamental health."
+        },
+        "macro": "Macro summary unavailable due to API error. Assume standard volatile market conditions.",
+        "buffett_raw": "Buffett Analysis Error: RetryError[<Future at 0x1ff99deb0e0 state=finished raised ChatGoogleGenerativeAIError>]",
+        "graham_raw": "Graham Analysis Error: RetryError[<Future at 0x1ff99de9820 state=finished raised ChatGoogleGenerativeAIError>]",
+        "growth_raw": "Growth Analysis Error: RetryError[<Future at 0x1ff99ddc230 state=finished raised ChatGoogleGenerativeAIError>]",
+        "final_report": "AI Generation Error: RetryError[<Future at 0x1ff99dcf260 state=finished raised ChatGoogleGenerativeAIError>]"
+    },
+    {
+        "timestamp": "2026-02-21T14:13:05.906957",
+        "client_id": "PUNEETH_001",
+        "profile": {
+            "age": 45,
+            "risk_tolerance": "moderate",
+            "investment_horizon_years": 15,
+            "time_horizon_years": 15,
+            "primary_goal": "Retirement and wealth preservation",
+            "goal_amount_usd": 2000000,
+            "current_portfolio_value_usd": 250000,
+            "liquidity_needs": "Low",
+            "experience": "Intermediate, comfortable with standard equities and bonds."
+        },
+        "portfolio": [
+            {
+                "ticker": "AAPL",
+                "quantity": 150,
+                "asset_type": "equity"
+            },
+            {
+                "ticker": "MSFT",
+                "quantity": 200,
+                "asset_type": "equity"
+            },
+            {
+                "ticker": "GOOGL",
+                "quantity": 100,
+                "asset_type": "equity"
+            },
+            {
+                "ticker": "AMZN",
+                "quantity": 80,
+                "asset_type": "equity"
+            },
+            {
+                "ticker": "BND",
+                "quantity": 500,
+                "asset_type": "bond_etf"
+            }
+        ],
+        "risk_metrics": {
+            "cvar_95": -0.027014,
+            "cvar_99": -0.039112,
+            "max_drawdown": -0.165879,
+            "sharpe_ratio": 0.6212,
+            "sortino_ratio": 0.9178,
+            "tail_dependence_yules_q": {
+                "AAPL-MSFT": 0.397,
+                "AAPL-GOOGL": 0.504,
+                "AAPL-AMZN": 0.41,
+                "AAPL-BND": 0.089,
+                "MSFT-GOOGL": 0.516,
+                "MSFT-AMZN": 0.625,
+                "MSFT-BND": 0.136,
+                "GOOGL-AMZN": 0.624,
+                "GOOGL-BND": -0.129,
+                "AMZN-BND": -0.043
+            },
+            "monte_carlo": {
+                "simulation_paths": 10000,
+                "projection_days": 252,
+                "initial_value": 100000.0,
+                "prob_of_gain_1yr": 0.7766,
+                "median_outcome": 116774.78,
+                "worst_5pct": 83965.66,
+                "best_5pct": 160148.77
+            }
+        },
+        "news": {
+            "AAPL": "Apple releases new AI-powered hardware, receiving mixed reviews. Supply chain issues persist in Asia. Analysts maintain a cautious but positive outlook.",
+            "MSFT": "Microsoft announces major cloud contract with US Government. Azure growth beats expectations. AI integration across Office products drives subscription revenue.",
+            "GOOGL": "Google faces new antitrust scrutiny in the EU regarding advertising technology. Search dominance remains strong, but AI competition from startups is increasing.",
+            "AMZN": "Amazon Web Services (AWS) announces new custom AI chips. Retail division shows strong holiday sales. Logistics costs stabilized.",
+            "BND": "Bond markets steady after Federal Reserve signals a pause in interest rate hikes. Yields remain attractive for conservative investors."
+        },
+        "fundamentals": {
+            "AAPL": "API Error: Unable to compute fundamental health.",
+            "MSFT": "API Error: Unable to compute fundamental health.",
+            "GOOGL": "API Error: Unable to compute fundamental health.",
+            "AMZN": "API Error: Unable to compute fundamental health.",
+            "BND": "API Error: Unable to compute fundamental health."
+        },
+        "macro": "Macro summary unavailable due to API error. Assume standard volatile market conditions.",
+        "buffett_raw": "Buffett Analysis Error: RetryError[<Future at 0x1ff99ddf6e0 state=finished raised ChatGoogleGenerativeAIError>]",
+        "graham_raw": "Graham Analysis Error: RetryError[<Future at 0x1ff99e89ee0 state=finished raised ChatGoogleGenerativeAIError>]",
+        "growth_raw": "Growth Analysis Error: RetryError[<Future at 0x1ff98831f10 state=finished raised ChatGoogleGenerativeAIError>]",
+        "final_report": "AI Generation Error: RetryError[<Future at 0x1ff9897b5f0 state=finished raised ChatGoogleGenerativeAIError>]"
+    },
+    {
+        "timestamp": "2026-02-21T14:53:47.217786",
+        "client_id": "PUNEETH_001",
+        "profile": {
+            "age": 45,
+            "risk_tolerance": "moderate",
+            "investment_horizon_years": 15,
+            "time_horizon_years": 15,
+            "primary_goal": "Retirement and wealth preservation",
+            "goal_amount_usd": 2000000,
+            "current_portfolio_value_usd": 250000,
+            "liquidity_needs": "Low",
+            "experience": "Intermediate, comfortable with standard equities and bonds."
+        },
+        "portfolio": [
+            {
+                "ticker": "AAPL",
+                "quantity": 150,
+                "asset_type": "equity"
+            },
+            {
+                "ticker": "MSFT",
+                "quantity": 200,
+                "asset_type": "equity"
+            },
+            {
+                "ticker": "GOOGL",
+                "quantity": 100,
+                "asset_type": "equity"
+            },
+            {
+                "ticker": "AMZN",
+                "quantity": 80,
+                "asset_type": "equity"
+            },
+            {
+                "ticker": "BND",
+                "quantity": 500,
+                "asset_type": "bond_etf"
+            }
+        ],
+        "risk_metrics": {
+            "cvar_95": -0.027014,
+            "cvar_99": -0.039112,
+            "max_drawdown": -0.165879,
+            "sharpe_ratio": 0.6212,
+            "sortino_ratio": 0.9178,
+            "tail_dependence_yules_q": {
+                "AAPL-MSFT": 0.397,
+                "AAPL-GOOGL": 0.504,
+                "AAPL-AMZN": 0.41,
+                "AAPL-BND": 0.089,
+                "MSFT-GOOGL": 0.516,
+                "MSFT-AMZN": 0.625,
+                "MSFT-BND": 0.136,
+                "GOOGL-AMZN": 0.624,
+                "GOOGL-BND": -0.129,
+                "AMZN-BND": -0.043
+            },
+            "monte_carlo": {
+                "simulation_paths": 10000,
+                "projection_days": 252,
+                "initial_value": 100000.0,
+                "prob_of_gain_1yr": 0.7889,
+                "median_outcome": 116743.41,
+                "worst_5pct": 84530.12,
+                "best_5pct": 161575.52
+            }
+        },
+        "news": {
+            "AAPL": "Apple releases new AI-powered hardware, receiving mixed reviews. Supply chain issues persist in Asia. Analysts maintain a cautious but positive outlook.",
+            "MSFT": "Microsoft announces major cloud contract with US Government. Azure growth beats expectations. AI integration across Office products drives subscription revenue.",
+            "GOOGL": "Google faces new antitrust scrutiny in the EU regarding advertising technology. Search dominance remains strong, but AI competition from startups is increasing.",
+            "AMZN": "Amazon Web Services (AWS) announces new custom AI chips. Retail division shows strong holiday sales. Logistics costs stabilized.",
+            "BND": "Bond markets steady after Federal Reserve signals a pause in interest rate hikes. Yields remain attractive for conservative investors."
+        },
+        "fundamentals": {
+            "AAPL": "Fundamental data currently unavailable.",
+            "MSFT": "Fundamental data currently unavailable.",
+            "GOOGL": "Fundamental data currently unavailable.",
+            "AMZN": "Fundamental data currently unavailable.",
+            "BND": "Fundamental data currently unavailable."
+        },
+        "macro": "Macro summary unavailable due to API error. Assume standard volatile market conditions.",
+        "buffett_raw": "Buffett Analysis Error: RetryError[<Future at 0x237c05f1ca0 state=finished raised ChatGoogleGenerativeAIError>]",
+        "graham_raw": "Graham Analysis Error: RetryError[<Future at 0x237c033b1d0 state=finished raised ChatGoogleGenerativeAIError>]",
+        "growth_raw": "Growth Analysis Error: RetryError[<Future at 0x237c05f26c0 state=finished raised ChatGoogleGenerativeAIError>]",
+        "final_report": "AI Generation Error: RetryError[<Future at 0x237c059cf50 state=finished raised ChatGoogleGenerativeAIError>]"
+    }
+]

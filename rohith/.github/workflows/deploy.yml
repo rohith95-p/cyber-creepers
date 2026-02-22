@@ -1,0 +1,43 @@
+# FILE: .github/workflows/deploy.yml
+name: Ivy Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  test-and-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        
+    - name: Run Tests
+      # Assuming you have set up secret variables in GitHub
+      env:
+        GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+      run: |
+        pytest tests/
+        
+    - name: Build and push Docker image
+      if: success()
+      run: |
+        echo "Building production image..."
+        # docker build -t ivy-wealth-advisor .
+        # docker push your-registry/ivy-wealth-advisor:latest
+        
+    - name: Deploy
+      if: success()
+      run: |
+        echo "Deploy step triggered (e.g. SSH to server and run docker-compose pull && docker-compose up -d)"
